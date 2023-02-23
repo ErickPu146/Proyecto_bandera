@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+h1{
+    margin: 2rem;
+    padding: 1rem;
+}
+.rojo{
+    min-width: 66rem;
+    min-height: 48rem;
+    max-width: 66rem;
+    max-height: 48rem;
+    background-color: rgb(216, 30, 30);
+    margin: auto;
+}
+.blancoVertical{
+    min-width: 10rem;
+    min-height: 48rem;
+    max-width: 10rem;
+    max-height: 48rem;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 15rem;
+    
+}
+.azulVertical{
+    background-color: rgb(17, 17, 148);
+    min-width: 5rem;
+    max-width: 5rem;
+    min-height: 48rem;
+    max-height: 48rem;
+    position: relative;
+    left: 2.5rem;
+    z-index: 2;
+ 
+}
+.blancoHorizontal{
+    min-width: 66rem;
+    min-height: 10rem;
+    max-width: 66rem;
+    min-height: 10rem;
+    background-color:  rgb(255, 255, 255);
+    position: relative;
+    bottom: 28.3rem;
+    z-index: 1;
+}
+.azulHorizontal{
+    background-color: rgb(17, 17, 148);
+    min-width: 66rem;
+    max-width: 66rem;
+    min-height: 5rem;
+    max-height: 5rem;
+    position: relative;
+    top: 2.5rem;
+
+  }
+
+
+
+
+
